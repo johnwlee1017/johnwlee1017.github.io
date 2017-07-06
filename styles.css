@@ -1,3 +1,9 @@
-body {
+body#index {
   background: lightblue;
+}
+body#tribute {
+  background: #f0e68c;
+}
+body#drawing {
+  background: #ffb6C1;
 }
