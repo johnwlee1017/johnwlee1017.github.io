@@ -41,4 +41,20 @@ p#nicky-caption {
 .info {
   text-align: center;
   font-weight: bold;
+  padding-bottom: 20px;
+}
+
+table {
+  position: relative;
+  left: 400px;
+}
+
+#list {
+  position: relative;
+  left: 550px;
+  bottom: 118px;
+}
+
+.links {
+  text-align: center;
 }
