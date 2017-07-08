@@ -51,10 +51,19 @@ table {
 
 #list {
   position: relative;
-  left: 550px;
-  bottom: 118px;
+  left: 580px;
+  bottom: 115px;
+  border: 1px solid;
+  width: 280px;
+  padding: 20px;
 }
 
 .links {
   text-align: center;
+}
+
+#form {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
