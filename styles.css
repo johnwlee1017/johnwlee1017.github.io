@@ -1,13 +1,19 @@
 body#index {
-  background: lightblue;
+  background-image: url("racetrack.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body#tribute {
-  background: #f0e68c;
+  background-image: url("clouds.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body#drawing {
-  background: #ffb6C1;
+  background-color: lightblue;
 }
 
 img {
@@ -15,6 +21,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   z-index: -1;
+  max-width: 100%;
 }
 
 .title {
@@ -27,7 +34,7 @@ img {
 p#motogp-caption {
   position: relative;
   left: 14%;
-  bottom: 60%;
+  bottom: 37px;
   font-weight: bold;
 }
 
@@ -46,12 +53,12 @@ p#nicky-caption {
 
 table {
   position: relative;
-  left: 400px;
+  left: 30%;
 }
 
 #list {
   position: relative;
-  left: 580px;
+  margin-left: 50%;
   bottom: 115px;
   border: 1px solid;
   width: 280px;
@@ -60,10 +67,25 @@ table {
 
 .links {
   text-align: center;
+  color: white;
 }
 
 #form {
   width: 300px;
   margin-left: auto;
   margin-right: auto;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color: purple;
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 1.7em;
+  }
 }
