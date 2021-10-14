@@ -1,7 +1,12 @@
 function send(method) {
   switch (method) {
     case "page":
-      analytics.page("Sample Page Event");
+      analytics.page({
+        title: 'new page test',
+        url: 'https://johnwlee1017.github.io/#test',
+        path: '/#test',
+        referrer: 'https://johnwlee1017.github.io/'
+      });
       break;
     case "track":
       analytics.track("Sample Track Event", {
