@@ -2,9 +2,9 @@ function send(method) {
   switch (method) {
     case "page":
       analytics.page({
-        title: 'new page test',
+        title: 'new test page',
         url: 'https://johnwlee1017.github.io/#test',
-        path: '/#test',
+        path: '/test_page',
         referrer: 'https://johnwlee1017.github.io/'
       });
       break;
